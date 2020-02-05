@@ -1,0 +1,62 @@
+Grotesque MT  std Extra Condensed
+
+.row{
+    padding: 0px;
+}
+
+
+.content-con{
+    padding: 0px;
+}
+
+
+.f1{
+    background-image: url('../../assets//images/bg_medium_stat_01.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+}
+
+.stripe{
+    background-image: url('../../assets//images/bg_small_stat_01.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+}
+
+.revflag{
+    background-image: url('../../assets//images/bg_small_stat_02.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+}
+
+.revstripe{
+    background-image: url('../../assets//images/bg_small_stat_03.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+}
+
+.flag{
+    background-image: url('../../assets//images/bg_small_stat_04.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+}
+
+.track{
+    background-image: url('../../assets//images/bg_large_stat.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+}
+
+.visit{
+        background-image: url('../../assets//images/ad_f12018_buyNow.jpg');
+        background-repeat: no-repeat;
+        
+    background-size: 100% 100%;
+}

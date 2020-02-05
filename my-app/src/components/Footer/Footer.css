@@ -1,0 +1,17 @@
+.page-footer{
+    background-color:rgb(40, 40, 40);
+    display: inline-flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.licence{
+    font-size: 0.5rem;
+}
+.footer-div{
+    
+}
+
+.row {
+
+}
