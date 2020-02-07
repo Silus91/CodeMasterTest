@@ -5,18 +5,17 @@ import 'materialize-css/dist/css/materialize.min.css';
 import Navbar from './layout/Navbar';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Home from './components/Home/Home';
-
+import Home from './pages/Home/Home';
 
 class App extends Component {
   render() {
     return (  
       <BrowserRouter>
         <Navbar />
-        <Header />
-        <Switch>
+        {/* <Header /> */}
+         <Switch>
           <Route exact path="/" component={Home} />
-        </Switch>
+        </Switch> 
         <Footer />
       </BrowserRouter>
     );

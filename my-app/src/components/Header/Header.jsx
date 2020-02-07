@@ -7,13 +7,16 @@ import './Header.css';
 export class Header extends Component {
   render() {
     return (
-        <header className="imgs">
-          <img className="responsive-img" src={header_bg} />
-
-          {/* <img src={header_logo} /> */}
-        </header>
+      <div className="bg-container">
+        <div className="logo-container">
+        </div>
+      </div>
     )
   }
 }
 
 export default Header;
+
+
+
+{/* */}

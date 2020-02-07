@@ -6,8 +6,8 @@ export class DistanceCounter extends Component {
     return (
       <div>
 				<img src={icon_distance} className="responsive-img center"/>
-        <h6>459,826</h6>
-        <h6>Distance Covered</h6>
+        <p>459,826</p>
+        <p>Distance Covered</p>
       </div>
     )
   }
