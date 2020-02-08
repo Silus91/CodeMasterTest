@@ -1,0 +1,20 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cardContainer > div {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+
+.cardContainer > div > div {
+    width: 100%;
+    position: relative;
+}

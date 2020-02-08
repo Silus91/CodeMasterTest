@@ -5,7 +5,7 @@ import './Footer.css'
 export class Footer extends Component {
   render() {
     return (
-      <footer class="page-footer">
+      <footer className="page-footer">
         <div className="footer-div">
           <img className=" responsive-img" src={logo_codemasters} />
         </div>

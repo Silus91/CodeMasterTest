@@ -1,0 +1,7 @@
+.cardsComponent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 300px!important;
+    margin: 0 10%;
+}

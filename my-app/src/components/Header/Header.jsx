@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import header_logo from './header_logo.png';
-import header_bg from './header_bg.jpg';
+import header_logo from '../../assets/images/header_bg.jpg';
 
 import './Header.css';
 
@@ -8,15 +7,10 @@ export class Header extends Component {
   render() {
     return (
       <div className="bg-container">
-        <div className="logo-container">
-        </div>
+        <img src={header_logo}/>
       </div>
     )
   }
 }
 
 export default Header;
-
-
-
-{/* */}
