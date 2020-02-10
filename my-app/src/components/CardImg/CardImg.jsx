@@ -3,7 +3,7 @@ import './CardImg.css';
 
 export class CardImg extends Component {
   render() {
-    const { icon, link, h1, h2, reverse } = this.props;
+    const { icon, link, firstHeader, secondHeader, reverse } = this.props;
     return (
       <Fragment>
         <img src={this.props.backgroundImg} className="backgroundImg" />
@@ -13,20 +13,21 @@ export class CardImg extends Component {
             <img src={icon} />
           </div>
           }
-          <div  
-          style={{ 
-            justifyContent: link ? 'flex-end' : 'center',
-            flexDirection: reverse ? 'column-reverse' : 'column'
-          }}
+          <div 
+            className="headersContainer" 
+            style={{ 
+              justifyContent: link ? 'flex-end' : 'center',
+              flexDirection: reverse ? 'column-reverse' : 'column'
+            }}
           >
-          <span style={{fontSize: icon ? '24px' : '40px'}} className="h1">
-            {link ?
-             <a href={link}>{h1}</a>
-            :
-            h1
-            }
-          </span>
-          <span style={{fontSize: icon ? '18px' : '20px'}} className="h2">{this.props.h2}</span>
+            <span style={{fontSize: icon ? '1.5rem' : '2.5rem'}} className="firstHeader">
+              {link ?
+              <a href={link}>{firstHeader}</a>
+              :
+              firstHeader
+              }
+            </span>
+            <span style={{fontSize: icon ? '1.125rem' : '1.25rem'}} className="secondHeader">{this.props.secondHeader}</span>
           </div> 
         </div>
       </Fragment>

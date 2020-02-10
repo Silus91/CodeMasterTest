@@ -1,0 +1,6 @@
+#root{
+    font-size: 16px;
+    background-image: url('assets/images/bg_tile.jpg'); 
+    background-repeat: repeat;
+    z-index: -3;
+}

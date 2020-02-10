@@ -1,17 +1,25 @@
+.footer-container{
+    position: relative;
+    min-height: 30vh;
+}
+
+@media screen and (max-width: 750px) {
+    .footer-container{
+        margin-top: 10%;
+        min-height: 100vh;
+    }
+}
+
 .page-footer{
     background-color:rgb(40, 40, 40);
     display: inline-flex;
     justify-content:space-between;
     width: 100%;
+    bottom: 0;
+    position: absolute;
+
 }
 
 .licence{
-    font-size: 0.5rem;
-}
-.footer-div{
-    
-}
-
-.row {
-
+    font-size: 0.625rem;
 }

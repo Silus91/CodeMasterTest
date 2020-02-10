@@ -16,7 +16,7 @@ class Navbar extends Component {
           <div className="nav-wrapper">
           <img className="responsive-img left" src={nav_logo} style={{padding:"5px"}} />
             <a href="#" data-target="mobile-demo" className="show-on-medium-and-down sidenav-trigger right"><i className="material-icons">menu</i></a>
-            <ul className="right hide-on-med-and-down">
+            <ul className="right hide-on-med-and-down" style={{ fontFamily: "Grotesque" }}>
               <li><Link to='/'>HOME</Link></li>
               <li><Link to='/#'>FEATURES</Link></li>
               <li><Link to='/#'>NEWS</Link></li>
